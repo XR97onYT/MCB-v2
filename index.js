@@ -18,9 +18,9 @@ const request = require("request")
 const base64 = require('nodejs-base64-encode')
 const JSON = require("JSON")
 const config = require("./config.json")
-const User = config.Username
-const Pass = config.Password
-const ID = config.AccountID
+const User = config.username
+const Pass = config.password
+const ID = config.accountID
 
 function doLoop(levelData, index, filter) {
   setTimeout(function() {
